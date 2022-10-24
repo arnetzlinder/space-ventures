@@ -1,0 +1,152 @@
+main {
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+}
+p {
+    line-height: 1.6rem;
+}
+h1 {
+    text-align: center;
+}
+.page1 {
+    background-image: url(../images/adam-miller-dBaz0xhCkPY-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+.moon-box {
+    width: 30%;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    border: 0.2rem solid black;
+    top: 3.5rem;
+    left: 3rem;
+    background-color: white;
+    opacity: 0.7;
+    padding: 1rem;
+    position: absolute;
+    min-height: 300px;
+    min-width: 300px;
+    max-height: 400px;
+    max-width: 400px;
+    padding-bottom: 5px;
+    }
+.moon-box h1 {
+    text-transform: uppercase;
+    font-size: 6em;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.read {
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.moon-box span {
+    font-size: 1.5rem;
+    color: black;
+    position: relative;
+    width: 0.7rem;
+    height: 1rem;
+    padding: 5px;
+    background-color: transparent;
+    left: 0;
+    transition: all 0.3s ease-in-out
+}
+.moon-box span:hover {
+    left: 15px;
+    cursor: pointer;
+}
+.down {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-down {
+    font-size: 2.5rem;
+    color: whitesmoke;
+    text-shadow: 1px 1px 10px black;
+    bottom: 15px;
+    position: relative;
+    transition: all 2s, border-radius 2s 4s;
+    }
+.arrow-down:hover {
+    bottom: 0px;
+    transition: all 2s, border-radius 2s 4s;
+    cursor: pointer;
+}
+.page2 {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/raphael-nogueira-svbDI1Pq30s-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.one {
+    color: white;
+    padding: 20px;
+    width:50%;
+    margin-inline: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.quote {
+    padding: 0;
+    margin-top: 2rem;
+    font-style: italic;
+    font-size: 1.5rem;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    line-height: 2.4rem;
+}
+.two {
+    color: white;
+    padding: 20px;
+    width: 50%;
+    margin-inline: auto;
+}
+.hidden-quote {
+    display: none;
+}
+.astronaut {
+    display: none;
+}
+.planet-earth a {
+    color: #d200a2;
+    border-color: #F25AED;
+}
+.space-ventures {
+    h2 {
+        font-size: 6em;
+        margin-bottom: 0;
+        span:first-of-type {
+        display: block;
+        position: relative;
+        z-index: 1;
+        padding: 0;
+        }
+        span:nth-of-type(2) {
+            position: relative;
+            top: -70px;
+            color:grey;
+            z-index: 0;
+            left: 90px;
+            
+        }
+    }
+}
+.ventures {
+    font-family: 'Times New Roman', Times, serif;
+}

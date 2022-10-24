@@ -1,0 +1,24 @@
+footer {
+    font-family: 'Rubik', sans-serif;
+    background-color: #100431;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    text-align: left;
+    margin: 0;
+    color: #d200a2;
+    text-shadow: 4px 4px 12px #d200a2, 4px 4px 24px #d200a2;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-button {
+    display: inline-block;
+    cursor: pointer;
+    background-color: blue;
+    border-color: white;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+    padding: 0.4rem 1rem;
+    margin: 1rem 0.5rem;
+}

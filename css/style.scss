@@ -1,0 +1,75 @@
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    position: absolute;
+    scroll-behavior: smooth;
+}
+    
+/*header*/
+@import 'hamburgermeny';
+
+/*main*/
+@import 'main';
+
+/*footer*/
+@import 'footer';
+
+/*mediaquierys*/
+@media screen and (min-width:1024px) {
+    .full-page {
+        display: flex;
+        gap: 100px;
+    }
+    .one .two {
+        width: 50%;
+    }
+    .quote {
+        margin-left: 5rem;
+        &::before, &::after {
+            content: '"';
+            display: block;
+            position: absolute;
+            color: white;
+            font-size: 5rem;
+            font-family: "Times New Roman",Times,serif;
+            font-style: italic;
+            opacity: 0.4;
+            z-index: 3;
+        }
+        &::before {
+            top: 0.4rem;
+            left: -1.4rem;
+        }
+        &::after {
+            bottom: -.5rem;
+            right: 20rem;
+        }
+    }
+    .hidden-quote {
+        display: block;
+        background: #FABBF6;
+        background: radial-gradient(circle farthest-corner at center center, #FABBF6 0%, #F25AED 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: lighter;
+        font-size: 2.2rem;
+        font-style: italic;
+        text-align: center;
+        opacity: 0.4;
+        margin-top: 100px;
+    }
+    .astronaut {
+        display: block;
+        width: 100px;
+        height: auto;
+        float: right; 
+        transform: rotate(3deg)
+    }
+    .moon-box h1 {
+        margin-top: 30px;
+    }
+    .read {
+        text-align: right;
+    }
+}
