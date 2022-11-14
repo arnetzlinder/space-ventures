@@ -98,8 +98,6 @@ h3 {
     padding: 20px;
     width:50%;
     margin-inline: auto;
-    margin-left: 200px;
-    margin-right: 200px;
 }
 .quote {
     padding: 0;
@@ -129,7 +127,7 @@ h3 {
 }
 .space-ventures {
     h2 {
-        font-size: 6em;
+        font-size: 4em;
         margin-bottom: 0;
         span:first-of-type {
         display: block;
@@ -139,10 +137,10 @@ h3 {
         }
         span:nth-of-type(2) {
             position: relative;
-            top: -70px;
+            top: -45px;
             color:grey;
             z-index: 0;
-            left: 90px;
+            left: 50px;
             
         }
     }
